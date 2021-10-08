@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
 html, body{
@@ -56,23 +57,3 @@ display: flex;
     margin-bottom: 20px;
 }
 
-.content{
-    position: absolute;
-    left: 20%;
-    width:80%;
-    height: 100%;
-    background-color: #f2e6c7;
-    overflow-y: auto;
-    padding-left: 3%;
-
-}
-
-.content h2{
-    font-size: 70px;
-    color: #2d454c;
-}
-
-.icons-social a{
-    width: 10px;
-    height: 10px;
-}
