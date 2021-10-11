@@ -10,7 +10,7 @@
 }
 
 .descricao{
-    margin-top: 250px;
+    margin-top: 280px;
 }
 
 .content h2{
@@ -31,7 +31,7 @@
 }
 
 .icons{
-    overflow: hidden;
+    
     
 }
 
@@ -40,7 +40,8 @@
     margin-left: 20px;
 }
 
-.icons-pos img{
-    width: 20px;
-    margin-left: 10px;
+.icons-pos span a{
+    margin-left: 15px;
+    overflow: hidden;
+    color: inherit;
 }
