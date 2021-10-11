@@ -35,8 +35,8 @@ display: flex;
 }
 
 .img-sidebar img{
-    width: 220px;
-    height: 250px;
+    width: 70%;
+    max-width: 70%;
     border-radius: 50%;
     border: 8px solid #2d454c;
    
