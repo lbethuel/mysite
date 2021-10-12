@@ -1,19 +1,16 @@
-.content{
-    position: absolute;
-    left: 20%;
-    width:80%;
-    height: 100%;
+.sobre{
+    height: 945px;
     background-color: #f2e6c7;
     overflow-y: auto;
     padding-left: 3%;
-
-}
+/*     background-image: linear-gradient(to bottom, white, #f2e6c7 );
+ */}
 
 .descricao{
     margin-top: 280px;
 }
 
-.content h2{
+.sobre h2{
     font-size: 70px;
     color: #2d454c;
 }
@@ -30,13 +27,10 @@
     font-size: 22px;
 }
 
-.icons{
-    
-    
-}
+
 
 .icons-pos{
-    margin-top: 20px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 

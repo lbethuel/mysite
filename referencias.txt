@@ -1,2 +1,3 @@
-Blog: https://startbootstrap.com/previews/landing-page
+Blog: https://startbootstrap.com/previews/small-business 
+https://startbootstrap.com/previews/landing-page
 Pagina inicial: https://startbootstrap.com/previews/resume

@@ -1,64 +1,106 @@
 /* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
+/* 
+##
+disposição da pagina 
+##
+*/
+
+.paginas {
+  display: grid;
+
+  grid-template-areas:
+    "cs"
+    "cp";
+
+  margin-left: 20%;
 }
 
-.parent{
-display: flex;
+.sobre {
+  grid-area: cs;
+  border: 0px solid black;
 }
 
-.sidebar{
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    background-color: #1c3035;
-    
+.trajeto {
+  grid-area: cp;
 }
 
-.sidebar-posicao{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 50px;
+/* 
+##
+CABEÇALHO
+##
+*/
+.parent {
+  display: flex;
+  position: absolute;
 }
 
-.img-sidebar{
-    text-align: center;
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #1c3035;
 }
 
-.img-sidebar img{
-    width: 70%;
-    max-width: 70%;
-    border-radius: 50%;
-    border: 8px solid #2d454c;
-   
+.sidebar-posicao {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
 }
 
-.menu{
-    margin: 20px 0;
-    text-align: center;
-    position: relative;
-    
+.img-sidebar {
+  text-align: center;
 }
 
-.menu li{
-    color: white;
-    opacity: 0.5;
-    font-size: 30px;
-    display: block;
-    text-decoration: none;
-    margin-bottom: 20px;
+.img-sidebar img {
+  width: 70%;
+  max-width: 70%;
+  border-radius: 50%;
+  border: 8px solid #2d454c;
+}
+
+.menu {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.menu li {
+  color: white;
+  opacity: 0.5;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 .menu a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
+footer{
+    background-color: #794d1b;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    
+}
+
+footer p{
+    color: white;
+    font-size: 18px;
+}

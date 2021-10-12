@@ -1,0 +1,55 @@
+
+.trajeto{
+    background-color: white;
+    height: 945px;
+    /* background-image: linear-gradient(to bottom,white, #794d1b); */
+}
+
+.formacao{
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+.formacao :hover {
+    color: tomato;
+}
+
+.formacao h2{
+    font-size: 40px;
+    color: #2d454c;
+}
+
+
+.formacao h3{
+    margin-top: 10px;
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+.formacao p{
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.xp{
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+.xp h2{
+    font-size: 40px;
+    color: #2d454c;
+}
+
+.xp h3{
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.xp p{
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 20px;
+}
