@@ -1,12 +1,24 @@
+.trajetoria{
+    display: grid;
+
+    grid-template-areas:
+    "c1 c2"
+    "c1 c2";
+}
+
+
+
+
 
 .trajeto{
     background-color: white;
     height: 945px;
+    grid-area: c1;
     /* background-image: linear-gradient(to bottom,white, #794d1b); */
 }
 
 .formacao{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 3%;
 }
 
@@ -52,4 +64,22 @@
     font-weight: bold;
     opacity: 0.7;
     font-size: 20px;
+}
+
+.skills{
+    grid-area: c2;
+    border: 0px solid red;
+}
+
+.skill-box{
+    border: 0px solid green;
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    margin-top: 50%;
+    margin-left: -150px;
+    background-color:  #f2e6c7;
+    color: black;
+    text-align: center;
+    
 }

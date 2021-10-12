@@ -30,12 +30,15 @@
 
 
 .icons-pos{
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 20px;
 }
 
 .icons-pos span a{
-    margin-left: 15px;
     overflow: hidden;
     color: inherit;
+}
+
+#git{
+    margin-left: 10px;
 }
