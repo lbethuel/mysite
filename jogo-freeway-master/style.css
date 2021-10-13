@@ -1,21 +1,42 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  /* overflow: hidden; */
 }
 html,
 body {
-  height: 100%;
-  width: 100%;
-  background-color: white;
+ 
+  background-color: #f2e6c7;
 }
+canvas {
+  display: block;
+  margin-left: 40%;
+margin-top: 50px;
+}
+
+
 
 
 .parent {
   display: flex;
   position: absolute;
+  margin-top: -50px;
+}
+
+.descricao h1{
+  margin-left: 45%;
+  margin-top: 50px;
+  font-size: 70px;
+    color: #2d454c;
+}
+
+.descricao p{
+  margin-top: 100px;
+  margin-left: 680px;
+  font-weight: bold;
 }
 
 .sidebar {
@@ -74,51 +95,4 @@ footer{
 footer p{
     color: white;
     font-size: 18px;
-}
-
-.cards{
-/*   background-color: blue;*/  
-  width: 80%;
-  height: 100%;
-  margin-left: 20%;
-}
-
-
-/* disposição das paginas*/
-
-.cards{
-  display: grid;
-
-  grid-template-areas:
-    "cp cp cp"
-    "cp cp cp"
-    "cp cp cp"
-    "ca ca ca"
-    "c1 c2 c3"
-    "c1 c2 c3";
-}
-
-.card-principal{
-  grid-area: cp;
-background-color: deepskyblue;
-}
-
-.vazio{
-  grid-area: ca;
-  background-color: brown;
-}
-
-.card1{
-grid-area: c1;
-background-color: crimson;
-}
-
-.card2{
-  grid-area: c2;
-  background-color: darkgreen;
-}
-
-.card3{
-  grid-area: c3;
-  background-color: darkorange;
 }
