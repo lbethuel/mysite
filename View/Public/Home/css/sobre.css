@@ -1,8 +1,13 @@
+.paginas{
+    margin-left: 20%;
+}
+
 .sobre{
     height: 945px;
     background-color: #f2e6c7;
     overflow-y: auto;
     padding-left: 3%;
+    
 /*     background-image: linear-gradient(to bottom, white, #f2e6c7 );
  */}
 

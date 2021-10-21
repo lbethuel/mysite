@@ -1,48 +1,3 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
-  /* overflow: hidden; */
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background-color: white;
-}
-
-/* 
-##
-disposição da pagina 
-##
-*/
-
-.paginas {
-  display: grid;
-
-  grid-template-areas:
-    "cs"
-    "cp";
-
-  margin-left: 20%;
-}
-
-.sobre {
-  grid-area: cs;
-  border: 0px solid black;
-}
-
-.trajeto {
-  grid-area: cp;
-}
-
-/* 
-##
-CABEÇALHO
-##
-*/
 .parent {
   display: flex;
   position: absolute;
@@ -90,18 +45,4 @@ CABEÇALHO
 .menu a {
   color: inherit;
   text-decoration: none;
-}
-
-footer{
-    background-color: #794d1b;
-    height: 11%;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    
-}
-
-footer p{
-    color: white;
-    font-size: 18px;
 }
